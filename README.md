@@ -31,6 +31,8 @@ Send data through MQTT protocol:
 ```python
 # clientObject.connect_mqtt();
 # clientObject.mqtt(<deviceTopic>, <dataString>);
+data = json.dumps({'temp': 21.2, 'humidity': 29.8})
+
 def on_mqtt_connect(client, userdata, flags, rc):
     piClient.mqtt('/data_api/device/59db5cd3d6021211cb346b0b', data)
 
