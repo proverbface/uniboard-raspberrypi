@@ -1,4 +1,4 @@
-# uniboard-tessel
+# uniboard-raspberrypi
 `uniboard_raspberrypi` is a [Uniboard](https://uniboard.io) client module for [Raspberry Pi](https://www.raspberrypi.org) device.
 With `uniboard_raspberrypi`, sending data to Uniboard system through HTTP(S) or MQTT protocol would be pretty easy and simple.
 
